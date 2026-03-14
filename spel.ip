@@ -1,0 +1,14 @@
+<h2>Klicka på impostorn!</h2>
+
+<button onclick="poang()">🔴 Impostor</button>
+
+<p>Poäng: <span id="score">0</span></p>
+
+<script>
+let score = 0;
+
+function poang(){
+score++;
+document.getElementById("score").innerText = score;
+}
+</script>
